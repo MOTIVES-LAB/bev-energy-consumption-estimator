@@ -11,10 +11,14 @@ The **BEV Energy Consumption Estimator** is a MATLAB-based graphical user interf
 
 ## References
 - Please cite the following paper when you use GECR model:
-`Yuan, Xinmei, et al. "Data-driven evaluation of electric vehicle energy consumption for generalizing standard testing to real-world driving." Patterns 5.4 (2024).`\
-https://doi.org/10.1016/j.patter.2024.100950.
-- "Introduction to Generalized Energy Consumption Rates":
-https://www.youtube.com/watch?v=vmJZik6mKlA&t=61s.
+`
+Yuan, Xinmei, et al. "Data-driven evaluation of electric vehicle energy consumption for generalizing standard testing to real-world driving." Patterns 5.4 (2024).
+`\
+Available at: [Patterns (Cell Press)](https://doi.org/10.1016/j.patter.2024.100950)
+`
+Introduction to Generalized Energy Consumption Rates
+`\
+Available at: [youtube](https://www.youtube.com/watch?v=vmJZik6mKlA&t=61s)
 
 
 ## License
