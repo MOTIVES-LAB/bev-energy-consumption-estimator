@@ -10,10 +10,14 @@ The **BEV Energy Consumption Estimator** is a MATLAB-based graphical user interf
 
 ## References
 - **Related Paper**: For an in-depth understanding of the principles and methodologies used in this estimator, please refer to the related paper: 
+
 Yuan, Xinmei, et al. "Data-driven evaluation of electric vehicle energy consumption for generalizing standard testing to real-world driving." Patterns 5.4 (2024).
+
 https://doi.org/10.1016/j.patter.2024.100950.
+
 - **Introduction Video**: For a visual introduction to the principles behind the generalizable energy consumption rate, watch the video: 
 **Introduction to Generalized Energy Consumption Rates**
+  
 https://www.youtube.com/watch?v=vmJZik6mKlA&t=61s.
 
 ## License
