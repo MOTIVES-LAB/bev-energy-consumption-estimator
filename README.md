@@ -2,6 +2,8 @@
 ## Overview
 The **BEV Energy Consumption Estimator** is a MATLAB-based graphical user interface (GUI) designed to demonstrate the **Generalizable Energy Consumption Rates（GECRs）**. This tool calculates the driving features of any given driving profile and estimates the contributions of different factors to the energy consumption rate and the total energy consumption rate.
 
+![Uploading schemetic.svg…]
+
 ## Features
 - **Driving Condition Analysis**: Compute driving features for any given driving condition.
 - **Energy Consumption Estimation**: Estimate the contributions of various factors to the energy consumption rate and the total energy consumption rate.
