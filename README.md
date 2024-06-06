@@ -10,15 +10,16 @@ The **BEV Energy Consumption Estimator** is a MATLAB-based graphical user interf
 - **Understanding Energy Consumption**: Gain insights into how vehicle energy consumption changes with different driving conditions and understand the underlying reasons for these changes.
 
 ## References
-- Please cite the following paper when you use GECR model:
+- Please cite the following paper when you use GECR model:  
 `
-Yuan, Xinmei, et al. "Data-driven evaluation of electric vehicle energy consumption for generalizing standard testing to real-world driving." Patterns 5.4 (2024).
+Yuan, Xinmei, et al. "Data-driven evaluation of electric vehicle energy consumption for generalizing standard testing to real-world driving." Patterns 5.4 (2024).  
 `\
-Available at: [Patterns (Cell Press)](https://doi.org/10.1016/j.patter.2024.100950)
+Available at: [Patterns (Cell Press)](https://doi.org/10.1016/j.patter.2024.100950)  
+- Video introduction:
 `
-Introduction to Generalized Energy Consumption Rates
+Introduction to Generalized Energy Consumption Rates  
 `\
-Available at: [youtube](https://www.youtube.com/watch?v=vmJZik6mKlA&t=61s)
+Available at: [Youtube](https://www.youtube.com/watch?v=vmJZik6mKlA&t=61s)  
 
 
 ## License
@@ -29,3 +30,6 @@ This software is provided as freeware, intended solely for non-commercial, educa
 Users assume all risks associated with the use of this software. The developer and associated platforms disclaim any liability for special, incidental, direct, or indirect damages arising out of or in connection with the use or inability to use the software. This includes, but is not limited to, any loss of data or property, and any resulting or related liabilities to the user or any third parties.
 By downloading or using this software, you signify your agreement to these terms.
 
+## Contact Us
+Please contact us if you need further technical support or search for cooperation. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.\
+Email contact: &nbsp; [MOTIVES Lab](mailto:motives.lab@gmail.com?subject=[GitHub]%20GECR), &nbsp; [Xinmei Yuan](mailto:yuan@jlu.edu.cn?subject=[GitHub]%20GECR).
