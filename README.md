@@ -25,7 +25,19 @@ Available at: [Patterns (Cell Press)](https://doi.org/10.1016/j.patter.2024.1009
 Introduction to Generalized Energy Consumption Rates  
 `\
 Available at: [Youtube](https://www.youtube.com/watch?v=vmJZik6mKlA&t=61s)  
-
+`
+可泛化能耗率介绍 
+`\
+Available at: [b站](https://www.bilibili.com/video/BV1um421V7Z8/?share_source=copy_web&vd_source=5c67b4335d1b513776dc2660713291aa)   
+- Online app:  
+` 
+English version:  
+`
+[Github](https://motives-lab.github.io/GECR_web/)  
+` 
+中文版:
+`
+http://47.92.126.206/
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -38,3 +50,7 @@ By downloading or using this software, you signify your agreement to these terms
 ## Contact Us
 Please contact us if you need further technical support or search for cooperation. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.\
 Email contact: &nbsp; [MOTIVES Lab](mailto:motives.lab@gmail.com?subject=[GitHub]%20GECR), &nbsp; [Xinmei Yuan](mailto:yuan@jlu.edu.cn?subject=[GitHub]%20GECR).
+
+<p align="center">
+  <img src="https://github.com/MOTIVES-LAB/generalized-energy-consumption-evaluation-for-ev/blob/main/figures/new_logo_trans.png" alt="drawing" width="200"/>
+</p> 
