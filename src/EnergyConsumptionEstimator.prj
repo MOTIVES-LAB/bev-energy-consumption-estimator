@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="2728256157" file="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\easy calculator v2\EnergyConsumptionEstimator.prj" location="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\easy calculator v2" name="EnergyConsumptionEstimator" preferred-package-location="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\easy calculator v2\EnergyConsumptionEstimator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="3560506832" file="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\src\EnergyConsumptionEstimator.prj" location="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\src" name="EnergyConsumptionEstimator" preferred-package-location="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>EnergyConsumptionEstimator</param.appname>
     <param.icon>${PROJECT_ROOT}\EnergyConsumptionEstimator_resources\icon.ico</param.icon>
     <param.icons>
@@ -16,15 +16,15 @@
     <param.description>Our software adopts the GECR (generalized energy consumption rate) model to provide estimates of energy consumption for electric vehicles under any speed profile. This approach is detailed in the paper "Data-driven evaluation of electric vehicle energy consumption for generalizing standard testing to real-world driving" by X. Yuan, J. He, Y. Li, Y. Liu, Y. Ma, B. Bao, L. Gu, L. Li, H. Zhang, Y. Jin, and L. Sun, published in Patterns, 5(4), 2024. DOI: 10.1016/j.patter.2024.100950.</param.description>
     <param.screenshot>${PROJECT_ROOT}\splash.png</param.screenshot>
     <param.guid />
-    <param.installpath.string>\Jilin University\EnergyConsumptionEstimator\</param.installpath.string>
+    <param.installpath.string>\MOTIVES\EnergyConsumptionEstimator\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo />
     <param.install.notes />
     <param.target.install.notes />
-    <param.intermediate>${PROJECT_ROOT}\EnergyConsumptionEstimator\for_testing</param.intermediate>
-    <param.files.only>${PROJECT_ROOT}\EnergyConsumptionEstimator\for_redistribution_files_only</param.files.only>
-    <param.output>${PROJECT_ROOT}\EnergyConsumptionEstimator\for_redistribution</param.output>
-    <param.logdir>${PROJECT_ROOT}\EnergyConsumptionEstimator</param.logdir>
+    <param.intermediate>E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_testing</param.intermediate>
+    <param.files.only>E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_redistribution_files_only</param.files.only>
+    <param.output>E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_redistribution</param.output>
+    <param.logdir>E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator</param.logdir>
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
@@ -32,7 +32,7 @@
     <param.web.mcr>true</param.web.mcr>
     <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
-    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.web.mcr.name>Installer</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
     <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
     <param.windows.command.prompt>true</param.windows.command.prompt>
@@ -50,15 +50,10 @@
     <unset>
       <param.version />
       <param.guid />
-      <param.installpath.string />
       <param.installpath.combo />
       <param.logo />
       <param.install.notes />
       <param.target.install.notes />
-      <param.intermediate />
-      <param.files.only />
-      <param.output />
-      <param.logdir />
       <param.enable.clean.build />
       <param.user.defined.mcr.options />
       <param.target.type />
@@ -66,7 +61,6 @@
       <param.web.mcr />
       <param.package.mcr />
       <param.no.mcr />
-      <param.web.mcr.name />
       <param.package.mcr.name />
       <param.no.mcr.name />
       <param.windows.command.prompt />
@@ -84,7 +78,7 @@
       <file>${PROJECT_ROOT}\GECR data.xlsx</file>
     </fileset.resources>
     <fileset.package>
-      <file>${PROJECT_ROOT}\cycles</file>
+      <file>E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\cycles</file>
     </fileset.package>
     <fileset.depfun>
       <file>${PROJECT_ROOT}\ecocar.png</file>
@@ -92,9 +86,9 @@
       <file>${PROJECT_ROOT}\new_logo_trans.png</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\EnergyConsumptionEstimator\for_testing" name="readme.txt" optional="true">E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\easy calculator v2\EnergyConsumptionEstimator\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\EnergyConsumptionEstimator\for_testing" name="EnergyConsumptionEstimator.exe" optional="false">E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\easy calculator v2\EnergyConsumptionEstimator\for_testing\EnergyConsumptionEstimator.exe</file>
-      <file location="${PROJECT_ROOT}\EnergyConsumptionEstimator\for_testing" name="splash.png" optional="false">E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\easy calculator v2\EnergyConsumptionEstimator\for_testing\splash.png</file>
+      <file location="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_testing" name="EnergyConsumptionEstimator.exe" optional="false">E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_testing\EnergyConsumptionEstimator.exe</file>
+      <file location="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_testing" name="readme.txt" optional="true">E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_testing\readme.txt</file>
+      <file location="E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_testing" name="splash.png" optional="false">E:\Research_sync\research_nutstore\2022_ev_lab_test\GUI\bev energy consumption estimator\release\EnergyConsumptionEstimator\for_testing\splash.png</file>
     </build-deliverables>
     <workflow />
     <matlab>
